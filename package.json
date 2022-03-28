@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "an ecommerce portfolio piece webapp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Bernardo Ramalhete",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  }
+}
