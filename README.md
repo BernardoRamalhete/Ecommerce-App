@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://imgur.com/ac219cca-3360-40c4-9c74-03a91d900dcb" alt="netflix's logo" width='30%' align="center"/>
+<img src="https://i.imgur.com/APMYbEp.png" alt="ecommerce's logo" width='30%' align="center"/>
 </p>
 <h1 align="center">My Ecommerce App</h1>
 <p>&nbsp</p>
