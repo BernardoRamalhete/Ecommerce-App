@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://logosmarcas.net/wp-content/uploads/2020/04/Netflix-Logo.png" alt="netflix's logo" width='50%' align="center"/>
+<img src="https://imgur.com/ac219cca-3360-40c4-9c74-03a91d900dcb" alt="netflix's logo" width='30%' align="center"/>
 </p>
 <h1 align="center">My Ecommerce App</h1>
 <p>&nbsp</p>
@@ -7,7 +7,7 @@
 <p>&nbsp</p>
 <div align="center">
 
-<a href='https://bernardo-netflix-clone.herokuapp.com/'>
+<a href='https://bernardo-ramalhete-ecommerce.herokuapp.com/'>
 
 <img src='https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white'/>
 
