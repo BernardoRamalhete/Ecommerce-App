@@ -1,0 +1,108 @@
+.profile-body {
+    background-image: url('../images/yellow-chair.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 95vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.profile-container {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile-container h1 {
+    font-size: 40px;
+}
+
+.profile-info {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.profile-info :first-child {
+    font-size: 12px;
+}
+
+.profile-info :nth-child(2) {
+    font-size: 18px;
+}
+
+.profile-info h3 {
+    margin: 10px;
+}
+
+.profile-border {
+    padding: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.8)
+}
+
+.profile-products {
+    position: relative;
+}
+
+.product-profile-container {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+}
+
+.product-profile-container img {
+    object-fit: cover;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.product-profile-info {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.product-profile-info p {
+    margin-bottom: 10px;
+}
+
+.product-profile-info h3 {
+    margin-bottom: 10px;
+}
+
+
+.product-profile-info :nth-child(3){
+    text-align: right;
+    font-weight: bold;
+}
+
+.product-profile-icons {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    font-size: 5px !important;
+}
+
+.product-icon {
+    margin-right: 20px;
+    opacity: 0.5;
+    transition: all 0.3s ease !important;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.product-icon:hover {
+    opacity: 1;
+}

@@ -1,0 +1,133 @@
+.product-page-body {
+    display: grid;
+    place-items: center;
+    height: 95vh;
+    background-image: url('../images/vase.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.product-page-container {
+    display: flex;
+    box-shadow: 6px 6px 20px #0f0f0f3a;
+    padding: 20px;
+    border-radius: 16px;
+    height: 500px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.401);
+}
+
+.product-page-container img{
+    border-radius: 16px;
+}
+
+.product-page-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-page-title {
+    margin-top: 15px;
+}
+
+.product-page-description {
+    position: relative;
+    bottom: 50px;
+    font-size: 20px;
+}
+
+.product-page-price {
+    font-size: 40px
+}
+
+.product-page-category {
+    display: flex;
+}
+
+.product-page-categories-tag {
+    margin-right: 10px;
+}
+
+.product-page-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 70px);
+    flex: 1;
+}
+
+.product-page-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.product-page-form input {
+    background-color: rgba(255, 255, 255, 0.401);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.product-page-form button {
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.product-page-comments {
+    margin-left: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    padding-left: 20px;
+}
+
+.product-page-comments h3 {
+    margin-bottom: 20px;
+}
+
+.product-page-comment {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    position: relative;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.product-page-comment-delete {
+    position: absolute;
+    right: 10px;
+    font-size: 20px !important;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: all 0.5s ease !important;
+}
+
+.product-page-comment-delete:hover {
+    opacity: 1;
+}
+
+.product-page-comment-details{
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    margin-top: 5px;
+    padding-top: 2px;
+    border-top: 1px solid rgba(255, 255, 255, 0.8)
+}
+
+.product-page-comment-details :nth-child(2) {
+    font-size: 12px;
+}
+
+.product-page-comment-details :nth-child(1) {
+    margin-right: 10px;
+}
+

@@ -1,0 +1,27 @@
+.homepage-content {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 480px);
+    grid-template-rows: fit-content(10%);
+    background-image: url('../images/green-sofa.jpg');
+    background-size: cover;
+    background-position: center;
+    height:95vh;
+}
+
+.homepage-noproducts {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.homepage-noproducts h3 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.thumbdown-icon {
+    font-size: 60px !important;
+    margin-left: 40px;
+}

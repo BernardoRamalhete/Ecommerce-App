@@ -1,0 +1,96 @@
+.register-page-body {
+    background-image: url('../images/chair.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:100vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}  
+
+.register-page-img {
+    width: 50%
+}
+
+.register-icon-container {
+    box-shadow: 3px 3px 20px #02020238;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.register-icon {
+    font-size: 500px;
+}
+
+.register-form-container {
+    width: fit-content();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.733);
+    border-radius:  32px;
+    background-color: rgba(255, 255, 255, 0.301);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 50px;
+}
+
+.register-page-form {
+    width: 100%;
+}
+
+.input-icon {
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: -55px;
+    border: 1px solid whitesmoke;
+    border-radius: 16px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #fff;
+    z-index: 5;
+    font-size: 85px !important; 
+}
+
+.register-page-form label {
+    position: absolute;
+    top: -10000px;
+    width: 1px;
+}
+
+.register-page-form input {
+    display: block;
+    width: 85%;
+    font-size: 16px;
+    padding: 30px;
+    margin: 20px 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.register-page-form button {
+    width: 85%;
+    margin: 30px;
+    font-size: 20px;
+    padding: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 16px;
+    background-color: #fff;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.register-page-form button:hover {
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    color: #fff;
+}
+
+.input-container {
+    display: flex;
+}

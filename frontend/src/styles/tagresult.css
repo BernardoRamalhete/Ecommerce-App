@@ -1,0 +1,11 @@
+.tag-result-body {
+    background-image: url('../images/living-room-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    width: 100vw;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 480px);
+    grid-template-rows: fit-content(10%);
+}

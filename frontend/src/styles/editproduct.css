@@ -1,0 +1,9 @@
+.edit-product-body {
+    background-image: url('../images/strange-vase.jpg');
+    background-size: 100%;
+    background-position: center;
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
