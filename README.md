@@ -35,13 +35,13 @@
 
 <h2></h2>
 <h3 align='center'>What does this app do?</h3>
-<p>This app is a marketplace where users can place their second hand furniture for sale. The project have an user account system, products and comments, with users can make in their own products as well as from others.</p>
+<p>This app is a marketplace where users can place their second hand furniture for sale. The project have an user account system, products and comments, with users can make in each others products.</p>
 
 <h2></h2>
 <h3 align='center'>How is the application build?</h3>
-<p>The webapp is build using the MERN Stack (MongoDB, Express, React and Node.JS). The mongoDB database was managed using the mongoose package, the express controlls the api server side, while React controlls the frontend. The node enviromment make the development proccess easier and faster by making available the NPM packages and is responsible for running the API.</p>
-<p>The secority aspect is handled by the JWT and bcrypt packages. That hash and salt the users passwords for storing in the database, and make the validation in the login without exposing the password client-side</p>
-<p>The authenticantion size of the project is made using Bear Tokens, allocated in the local storage while the user is logged in and giving access to protect routes, like adding products and commenting.</p>
+<p>The webapp is build using the MERN Stack (MongoDB, Express, React and Node.JS). The mongoDB database was managed using the mongoose package, the express package controlls the connection with the server, while React controlls the frontend. The node enviromment make the development proccess easier and faster by making available the NPM packages and is responsible for running the API.</p>
+<p>The security aspect is handled by bcrypt. That hash and salt the users passwords for storing in the database, and make the validation in the login without exposing the password client-side</p>
+<p>The authenticantion size of the project is made using Bear Tokens, provided by JWT and allocated in the local storage while the user is logged in, giving access to protect routes, like adding products and commenting.</p>
 <h2></h2>
 <h3 align='center'>How to run in your PC</h3>
 
